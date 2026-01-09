@@ -74,7 +74,7 @@ def plot(
         color=fill_color,
         alpha=fill_alpha,
         zorder=0,
-        label="low-SNR region",
+        label="Low-SNR region",
     )
 
     ax.legend(frameon=False, loc="lower left")
@@ -138,7 +138,7 @@ def plot(
         color=fill_color,
         alpha=fill_alpha,
         zorder=0,
-        label="Clipped region"
+        label="Low-SNR region"
     )
 
     ax.grid(True, which="major", alpha=0.4)
